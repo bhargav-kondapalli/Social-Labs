@@ -37,6 +37,7 @@
 		DDCA4C701D94902C001124CB /* RoundedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
 		DDCA4C721D9493C6001124CB /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		DDCA4C741D949661001124CB /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		DDFF73391D95DBAE004509CE /* Social-Labs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Social-Labs.entitlements"; sourceTree = "<group>"; };
 		F6A74A515863BD2003495018 /* Pods-Social-Labs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-Labs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social-Labs/Pods-Social-Labs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +91,7 @@
 		DD748C7F1D909A1200434880 /* Social-Labs */ = {
 			isa = PBXGroup;
 			children = (
+				DDFF73391D95DBAE004509CE /* Social-Labs.entitlements */,
 				DDCA4C6D1D9489F7001124CB /* Util */,
 				DD748C941D909D6300434880 /* Model */,
 				DD748C961D909D7500434880 /* Controller */,
@@ -175,6 +177,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 49XR87VS25;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -391,6 +398,7 @@
 			baseConfigurationReference = 6A79F2797C8CC53A8B914153 /* Pods-Social-Labs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Social-Labs/Social-Labs.entitlements";
 				DEVELOPMENT_TEAM = 49XR87VS25;
 				INFOPLIST_FILE = "Social-Labs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -406,6 +414,7 @@
 			baseConfigurationReference = F6A74A515863BD2003495018 /* Pods-Social-Labs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Social-Labs/Social-Labs.entitlements";
 				DEVELOPMENT_TEAM = 49XR87VS25;
 				INFOPLIST_FILE = "Social-Labs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
