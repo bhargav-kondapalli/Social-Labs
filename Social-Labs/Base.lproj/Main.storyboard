@@ -82,13 +82,16 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DV9-If-4yA" customClass="FancyField" customModule="Social_Labs" customModuleProvider="target">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntA-4j-2wz" customClass="FancyBtn" customModule="Social_Labs" customModuleProvider="target">
                                         <color key="backgroundColor" red="1" green="0.83921568627450982" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Sign-In">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.87209051724137931" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAD-nW-mur"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -111,6 +114,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="pjJ-9D-Sku" secondAttribute="trailing" constant="30" id="w1v-zP-tVi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="HLA-4r-L1d" id="ACo-Gk-YK8"/>
+                        <outlet property="pwdField" destination="DV9-If-4yA" id="TJp-78-mzU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
