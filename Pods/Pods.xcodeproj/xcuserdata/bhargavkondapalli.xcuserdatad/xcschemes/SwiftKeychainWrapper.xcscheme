@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EDC37F3FA92533C6AC3562458AA91F1"
-               BuildableName = "FBSDKLoginKit.framework"
-               BlueprintName = "FBSDKLoginKit"
+               BlueprintIdentifier = "8AF584095BBF1427888EEC500EA0006F"
+               BuildableName = "SwiftKeychainWrapper.framework"
+               BlueprintName = "SwiftKeychainWrapper"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EDC37F3FA92533C6AC3562458AA91F1"
-            BuildableName = "FBSDKLoginKit.framework"
-            BlueprintName = "FBSDKLoginKit"
+            BlueprintIdentifier = "8AF584095BBF1427888EEC500EA0006F"
+            BuildableName = "SwiftKeychainWrapper.framework"
+            BlueprintName = "SwiftKeychainWrapper"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
