@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2427E51D9A25DE0080B9C3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2427E41D9A25DE0080B9C3 /* CircleView.swift */; };
 		DD748C811D909A1200434880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD748C801D909A1200434880 /* AppDelegate.swift */; };
 		DD748C831D909A1200434880 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD748C821D909A1200434880 /* SignInVC.swift */; };
 		DD748C861D909A1200434880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD748C841D909A1200434880 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		6A79F2797C8CC53A8B914153 /* Pods-Social-Labs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-Labs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social-Labs/Pods-Social-Labs.debug.xcconfig"; sourceTree = "<group>"; };
 		AD613A388B227223BBB18DAD /* Pods_Social_Labs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Labs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2427E41D9A25DE0080B9C3 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		DD748C7D1D909A1200434880 /* Social-Labs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-Labs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD748C801D909A1200434880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD748C821D909A1200434880 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				DDCA4C701D94902C001124CB /* RoundedBtn.swift */,
 				DDCA4C721D9493C6001124CB /* FancyField.swift */,
 				DDCA4C741D949661001124CB /* FancyBtn.swift */,
+				DD2427E41D9A25DE0080B9C3 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2427E51D9A25DE0080B9C3 /* CircleView.swift in Sources */,
 				DDCA4C731D9493C6001124CB /* FancyField.swift in Sources */,
 				DD748C831D909A1200434880 /* SignInVC.swift in Sources */,
 				DD748C811D909A1200434880 /* AppDelegate.swift in Sources */,
