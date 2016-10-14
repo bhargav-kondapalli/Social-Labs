@@ -15,6 +15,7 @@
 		DD748C881D909A1200434880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD748C871D909A1200434880 /* Assets.xcassets */; };
 		DD748C8B1D909A1200434880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD748C891D909A1200434880 /* LaunchScreen.storyboard */; };
 		DD748C931D909B0000434880 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD748C921D909B0000434880 /* GoogleService-Info.plist */; };
+		DDADDB1A1DAF3E25007DCE9F /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDADDB191DAF3E25007DCE9F /* DataServices.swift */; };
 		DDCA4C6C1D9488A7001124CB /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA4C6B1D9488A7001124CB /* FancyView.swift */; };
 		DDCA4C6F1D948A35001124CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA4C6E1D948A35001124CB /* Constants.swift */; };
 		DDCA4C711D94902C001124CB /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA4C701D94902C001124CB /* RoundedBtn.swift */; };
@@ -37,6 +38,7 @@
 		DD748C8A1D909A1200434880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD748C8C1D909A1200434880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD748C921D909B0000434880 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDADDB191DAF3E25007DCE9F /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		DDCA4C6B1D9488A7001124CB /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		DDCA4C6E1D948A35001124CB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DDCA4C701D94902C001124CB /* RoundedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		DD748C7F1D909A1200434880 /* Social-Labs */ = {
 			isa = PBXGroup;
 			children = (
+				DDADDB181DAF3DB4007DCE9F /* Services */,
 				DDFF73391D95DBAE004509CE /* Social-Labs.entitlements */,
 				DDCA4C6D1D9489F7001124CB /* Util */,
 				DD748C941D909D6300434880 /* Model */,
@@ -139,6 +142,14 @@
 				DDE527891D97588700FDD086 /* FeedVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		DDADDB181DAF3DB4007DCE9F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDADDB191DAF3E25007DCE9F /* DataServices.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		DDCA4C6D1D9489F7001124CB /* Util */ = {
@@ -285,6 +296,7 @@
 				DD748C831D909A1200434880 /* SignInVC.swift in Sources */,
 				DD748C811D909A1200434880 /* AppDelegate.swift in Sources */,
 				DDCA4C711D94902C001124CB /* RoundedBtn.swift in Sources */,
+				DDADDB1A1DAF3E25007DCE9F /* DataServices.swift in Sources */,
 				DDE5278A1D97588700FDD086 /* FeedVC.swift in Sources */,
 				DDCA4C6C1D9488A7001124CB /* FancyView.swift in Sources */,
 				DDCA4C6F1D948A35001124CB /* Constants.swift in Sources */,
