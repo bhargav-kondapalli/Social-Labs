@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -162,17 +162,17 @@
                                     <constraint firstAttribute="bottom" secondItem="clM-5S-Fzv" secondAttribute="bottom" constant="4" id="nPP-Np-0Iz"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="354" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qgh-Ov-jqD">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="377" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qgh-Ov-jqD">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="505" id="WYz-0w-I72"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="354" id="Wff-ha-wWX" customClass="PostCell" customModule="Social_Labs" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="354"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="377" id="Wff-ha-wWX" customClass="PostCell" customModule="Social_Labs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="377"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wff-ha-wWX" id="TTl-N2-o1B">
-                                            <frame key="frameInset" width="375" height="353"/>
+                                            <frame key="frameInset" width="375" height="376.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Xk-ET-uY1" customClass="FancyView" customModule="Social_Labs" customModuleProvider="target">
@@ -209,13 +209,13 @@
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="jef-gp-6HM">
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="150" id="adR-Lf-SCk"/>
+                                                                        <constraint firstAttribute="height" constant="200" id="adR-Lf-SCk"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IoM-O5-G8y">
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="b6P-lx-VdO"/>
+                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="b6P-lx-VdO"/>
                                                                     </constraints>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -245,7 +245,6 @@
                                                         <constraint firstAttribute="bottom" secondItem="aEu-5X-HNU" secondAttribute="bottom" constant="40" id="QAa-SJ-5U8"/>
                                                         <constraint firstItem="aEu-5X-HNU" firstAttribute="top" secondItem="7Xk-ET-uY1" secondAttribute="top" constant="5" id="Z2P-El-9RA"/>
                                                         <constraint firstAttribute="bottom" secondItem="rGc-DK-RpF" secondAttribute="bottom" constant="8" id="cwH-kV-pN8"/>
-                                                        <constraint firstAttribute="trailing" secondItem="aEu-5X-HNU" secondAttribute="trailing" constant="5" id="uc9-Xc-3SC"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
