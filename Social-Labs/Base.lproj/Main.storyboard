@@ -172,7 +172,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="377"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wff-ha-wWX" id="TTl-N2-o1B">
-                                            <frame key="frameInset" width="375" height="376.5"/>
+                                            <frame key="frameInset" width="375" height="377"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Xk-ET-uY1" customClass="FancyView" customModule="Social_Labs" customModuleProvider="target">
@@ -294,6 +294,9 @@
                                                     <constraint firstAttribute="width" constant="49" id="S3p-W5-5T6"/>
                                                 </constraints>
                                                 <state key="normal" image="add-post"/>
+                                                <connections>
+                                                    <action selector="postButtonTapped:" destination="EYz-ex-CRb" eventType="touchUpInside" id="pcU-yn-qFy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -327,6 +330,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="caption" destination="upk-xR-5Iv" id="VvZ-Oh-AsA"/>
                         <outlet property="imageAdd" destination="hoK-aI-cNo" id="H0M-O6-06W"/>
                         <outlet property="tableView" destination="qgh-Ov-jqD" id="zQs-a8-dX0"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="KU7-BZ-3mI"/>
